@@ -11,7 +11,7 @@ public class Company {
         employees[0].setNumberOfSubordinates(0); // Menedżer - brak podwładnych
 
         // Zamiana pracowników o indeksach 1 i 4 na instancje klasy Worker
-        employees[1] = new Worker("", 60000);
+        employees[1] = new Worker("Tom Henks", 60000);
         employees[4] = new Worker("Brad Pitt", 65000);
 
         // Wyświetlenie danych dla wszystkich pracowników
