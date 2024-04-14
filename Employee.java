@@ -1,4 +1,4 @@
-package employees;
+
 public class Employee {
     private String fullName;
     private double salary;
@@ -23,5 +23,10 @@ public class Employee {
     @Override
     public String toString() {
         return "Employee: " + fullName + ", Salary: " + salary;
+    }
+
+    public void setNumberOfSubordinates(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setNumberOfSubordinates'");
     }
 }
